@@ -1,0 +1,21 @@
+.heading h1{
+    text-align: center;
+    text-decoration: underline;
+    
+}
+.heading h4{
+    font-size: 20px;
+}
+.heading p{
+    font-size: 18px;
+}
+.heading ul{
+    border: 2px solid grey;
+    border-radius: 10px;
+    background-color: beige;
+}
+@media (max-width: 719px) {
+    .heading p{
+        text-align: center;
+    }
+}

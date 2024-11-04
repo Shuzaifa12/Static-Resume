@@ -1,0 +1,169 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: rgb(182, 175, 175);
+}
+.main1, .main2, .main3, .main4{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin: 30px auto;
+    font-size: large;
+}
+.border{
+    margin-top: 10px;
+    padding: 5px;
+    border: 3px solid rgb(2, 16, 87);
+    border-radius: 8px;
+}
+.P_Info{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.P_Info::after{
+    background-color: #ffffff;
+    content: "";
+    display: block;
+    width: 30%;
+    height: 2px;
+    margin: 2px auto;
+}
+.Image img{
+    width: 8rem;
+    height: 8rem;
+    border: 2px solid black;
+    margin: 5px 0px;
+}
+.Name{
+    display: inline-flex;
+}
+.Name h4,p{
+    margin: 4px 0px;
+}
+.Name p{
+    margin-left: 4px;
+}
+.Cont_Info h4,p{
+    margin: 4px 0px;
+    display: inline-flex;
+}
+.Cont_Info p{
+    margin-left: 4px;
+}
+
+@media (max-width: 575px) {
+    .Name{
+        display: inline;
+    }
+    .Cont_Info {
+        display: inline;
+    }
+}
+
+
+.Edu{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.Edu::after{
+    background-color: #ffffff;
+    content: "";
+    display: block;
+    width: 30%;
+    height: 2px;
+    margin: 2px auto;
+}
+.bachelors, .Intermediate, .Matriculation{
+    justify-content: space-between;
+    display: flex;
+    margin: 15px 0px;
+}
+.left{
+    text-align: center;
+}
+.right{
+    text-align: left;
+}
+.left, .right{
+    width: 40%;
+}
+@media (max-width: 575px) {
+    .bachelors, .Intermediate, .Matriculation{
+        display:block;
+        margin: 10px 0px;
+    }
+    .left, .right {
+        display: inline;
+        text-align: center;
+        width: 100%;
+    }
+}
+
+.Skills{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.Skills::after{
+    background-color: #ffffff;
+    content: "";
+    display: block;
+    width: 30%;
+    height: 2px;
+    margin: 2px auto;
+}
+.list ul{
+    margin: 15px 0px;
+}
+
+.main4 button{
+    border: 2px solid rgb(255, 0, 0);
+    border-radius: 5px;
+    padding: 4px;
+    background-color: black;
+    font-weight: bold;
+    cursor: pointer;
+}
+.main4 button a{
+    text-decoration: none;
+    color: white;
+}
+.W_Exp{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.W_Exp::after{
+    background-color: #ffffff;
+    content: "";
+    display: block;
+    width: 30%;
+    height: 2px;
+    margin: 2px auto;
+}
+.Fourth_Exp, .Third_Exp, .Second_Exp, .First_Exp{
+    justify-content: space-between;
+    display: flex;
+    margin: 15px 0px;
+}
+.left{
+    text-align: center;
+}
+.right{
+    text-align: left;
+}
+.left, .right{
+    margin: auto;
+    width: 40%;
+}
+@media (max-width: 575px) {
+    .Fourth_Exp, .Third_Exp, .Second_Exp, .First_Exp{
+        display:block;
+        margin: 10px 0px;
+    }
+    .left, .right {
+        display: inline;
+        text-align: center;
+        width: 100%;
+    }
+}
